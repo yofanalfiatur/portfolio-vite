@@ -1,34 +1,25 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import About from "./components/Layouts/About";
+import Contact from "./components/Layouts/Contact";
+import Experience from "./components/Layouts/Experience";
+import { Header } from "./components/Layouts/Header";
+import Home from "./components/Layouts/Home";
+import Portfolio from "./components/Layouts/Portfolio";
+import Services from "./components/Layouts/Services";
+import Skills from "./components/Layouts/Skills";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          test aja <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <p className="text-2xl text-red-500">hello world</p>
+      <Header />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Experience />
+        <Services />
+        <Contact />
+      </main>
     </>
   );
 }
