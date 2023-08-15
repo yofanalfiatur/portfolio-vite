@@ -1,8 +1,11 @@
+import Section from "../Elements/Section";
+import TitleSection from "../Elements/TitleSection";
+
 const Experience = () => {
   return (
-    <section>
-      <h1>Work & Experience</h1>
-    </section>
+    <Section>
+      <TitleSection>Experience</TitleSection>
+    </Section>
   );
 };
 

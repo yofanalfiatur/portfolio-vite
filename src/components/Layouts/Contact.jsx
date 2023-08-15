@@ -1,8 +1,11 @@
+import Section from "../Elements/Section";
+import TitleSection from "../Elements/TitleSection";
+
 const Contact = () => {
   return (
-    <section>
-      <h1>Contact</h1>
-    </section>
+    <Section>
+      <TitleSection>Contact</TitleSection>
+    </Section>
   );
 };
 

@@ -1,12 +1,11 @@
+import Section from "../Elements/Section";
 import TitleSection from "../Elements/TitleSection";
 
 const About = () => {
   return (
-    <section className="about">
-      <div>
-        <TitleSection>About</TitleSection>
-      </div>
-    </section>
+    <Section>
+      <TitleSection>About</TitleSection>
+    </Section>
   );
 };
 

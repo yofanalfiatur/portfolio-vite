@@ -1,8 +1,11 @@
+import Section from "../Elements/Section";
+import TitleSection from "../Elements/TitleSection";
+
 const Skills = () => {
   return (
-    <section>
-      <h1>Skills</h1>
-    </section>
+    <Section>
+      <TitleSection>Skills</TitleSection>
+    </Section>
   );
 };
 

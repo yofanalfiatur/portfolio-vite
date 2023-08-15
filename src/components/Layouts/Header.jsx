@@ -1,9 +1,9 @@
 export const Header = () => {
   return (
-    <header>
-      <nav className="w-screen flex justify-between p-8">
+    <header className="w-screen shadow-lg">
+      <nav className="container max-w-screen flex justify-between p-8 mx-auto">
         <div className="text-primary">
-          <h1>Yofan Alfiatur</h1>
+          <h1 className="text-4xl font-bold text-primary">Yofan Alfiatur</h1>
         </div>
         <div className="">
           <ul className="flex gap-8">
