@@ -1,3 +1,30 @@
+export const linkMenu = [
+    {
+        titile: "Home",
+        href: "#home",
+    },
+    {
+        titile: "About",
+        href: "#about",
+    },
+    {
+        titile: "Skills",
+        href: "#skills",
+    },
+    {
+        titile: "Experience",
+        href: "#experience",
+    },
+    {
+        titile: "Services",
+        href: "#services",
+    },
+    {
+        titile: "Contact",
+        href: "#contact",
+    }
+]
+
 export const identity = {
     name: "Yofan Alfiatur",
     position: "Frontend Developer",
