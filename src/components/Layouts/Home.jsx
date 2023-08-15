@@ -21,15 +21,15 @@ const Home = () => {
   }, []);
   return (
     <Section>
-      <div className="flex flex-wrap max-w-full justify-center md:items-center">
-        <div className="md:w-1/2">
-          <p className="text-tertiary">Hello I'am 👋</p>
-          <h1 className="text-secondary text-4xl font-bold">{name}</h1>
-          <p className="text-primary font-bold">{position}</p>
-          <p className="text-primary ">{description}</p>
+      <div className="flex flex-wrap max-w-full justify-center md:items-center gap-y-8">
+        <div className="md:w-1/2 flex flex-col gap-3">
+          <p className="text-primary">Hello I'am 👋</p>
+          <h1 className="text-secondary text-6xl font-bold">{name}</h1>
+          <p className="text-primary font-bold text-3xl">{position}</p>
+          <p className="text-primary mb-10">{description}</p>
 
-          <a href={cv} target="_blank">
-            <button className=" text-white rounded-xl p-4 bg-primary">
+          <a href={cv} target="_blank" className="w-max">
+            <button className=" text-white rounded-xl p-4 bg-primary hover:ring-4 hover:ring-secondary transition duration-200 hover:text-secondary">
               Here is My CV 📃
             </button>
           </a>

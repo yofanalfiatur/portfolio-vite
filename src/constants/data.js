@@ -1,23 +1,23 @@
 export const linkMenu = [
     {
         titile: "Home",
-        href: "#home",
+        href: "/#home",
     },
     {
         titile: "About",
-        href: "#about",
+        href: "/#about",
     },
     {
         titile: "Skills",
-        href: "#skills",
+        href: "/#skills",
     },
     {
         titile: "Experience",
-        href: "#experience",
+        href: "/#experience",
     },
     {
         titile: "Services",
-        href: "#services",
+        href: "/#services",
     },
     {
         titile: "Contact",
@@ -29,7 +29,7 @@ export const identity = {
     name: "Yofan Alfiatur",
     position: "Frontend Developer",
     region: "Klaten, Central Tengah, Indonesia",
-    description: "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. I have developed websites using HTML, CSS/SCSS, and Javascript or CMS such as Wordpress with several page builders such as Elementor, wpbakery and oxygen. I'm interested in continuing to study various frameworks and libraries to develop my skills as a frontend developer. I also have an interest in data, such as data analysis and data engineering",
+    description: "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. Experienced in creating websites, both static and dynamic, especially in frontend developers.",
     profile: ["/image/yofan-1.png","/image/yofan-1-m.png"],
     cv: "/files/CV__Yofan.pdf",
 }

@@ -6,12 +6,19 @@ export default {
   ],
   mode: "jit",
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+    },
     extend: {
       colors: {
         primary: "#14213D",
         secondary: "#FCA311",
         tertiary: "#E5E5E5",
       },
+      screens: {
+        "2xl": "1320px",
+      }
     },
   },
   plugins: [],
