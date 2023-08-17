@@ -1,26 +1,26 @@
 export const linkMenu = [
     {
-        titile: "Home",
+        title: "Home",
         href: "/#home",
     },
     {
-        titile: "About",
+        title: "About",
         href: "/#about",
     },
     {
-        titile: "Skills",
+        title: "Skills",
         href: "/#skills",
     },
     {
-        titile: "Experience",
+        title: "Experience",
         href: "/#experience",
     },
     {
-        titile: "Services",
+        title: "Services",
         href: "/#services",
     },
     {
-        titile: "Contact",
+        title: "Contact",
         href: "#contact",
     }
 ]

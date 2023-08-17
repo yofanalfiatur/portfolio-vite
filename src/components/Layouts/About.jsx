@@ -3,7 +3,7 @@ import TitleSection from "../Elements/TitleSection";
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <TitleSection>About</TitleSection>
     </Section>
   );

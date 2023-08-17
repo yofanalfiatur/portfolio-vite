@@ -3,7 +3,7 @@ import TitleSection from "../Elements/TitleSection";
 
 const Portfolio = () => {
   return (
-    <Section>
+    <Section id="portfolio">
       <TitleSection>Portfolio</TitleSection>
     </Section>
   );
