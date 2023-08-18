@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { identity } from "../../constants/data";
 import Section from "../Elements/Section";
+import { LuArrowBigDownDash } from "react-icons/lu";
 
 const Home = () => {
   const { name, position, region, description, profile, cv } = identity;
@@ -24,15 +25,28 @@ const Home = () => {
       <div className="flex flex-wrap max-w-full justify-center md:items-center gap-y-8">
         <div className="md:w-1/2 flex flex-col gap-3">
           <p className="text-primary">Hello I'am 👋</p>
-          <h1 className="text-secondary text-6xl font-bold">{name}</h1>
+          <h1 className="bg-gradient-to-r from-primary from-10% to-secondary to-80% bg-clip-text text-transparent text-6xl font-bold w-max">
+            {name}
+          </h1>
           <p className="text-primary font-bold text-3xl">{position}</p>
           <p className="text-primary mb-10">{description}</p>
 
-          <a href={cv} target="_blank" className="w-max">
-            <button className=" text-white rounded-xl p-4 bg-primary hover:ring-4 hover:ring-secondary transition duration-200 hover:text-secondary">
+          <div className="flex gap-8 items-center">
+            <a
+              href={cv}
+              target="_blank"
+              className="w-max text-white rounded-xl p-4 bg-primary hover:ring-2 hover:ring-secondary hover:bg-transparent transition duration-200 hover:text-secondary"
+            >
               Here is My CV 📃
-            </button>
-          </a>
+            </a>
+
+            <a
+              href="#contact"
+              className="w-fit text-primary font-bold animate-bounce flex items-center gap-2"
+            >
+              Let's Talk <LuArrowBigDownDash className="" />
+            </a>
+          </div>
         </div>
         <div className="md:w-1/2 relative flex justify-center overflow-hidden">
           <img

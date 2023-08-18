@@ -5,13 +5,16 @@ const About = () => {
   return (
     <Section id="about">
       <TitleSection>About</TitleSection>
-      <div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis,
-          nemo est nobis sequi neque ex cumque quia esse ullam obcaecati
-          provident, beatae facilis accusantium autem laborum iusto. Aliquid,
-          facere et. Reprehenderit earum odit veritatis libero!
-        </p>
+      <div className="flex w-full">
+        <div className="">
+          <img
+            src="/svg/about.svg"
+            alt=""
+            width={400}
+            height={400}
+            className=""
+          />
+        </div>
       </div>
     </Section>
   );
