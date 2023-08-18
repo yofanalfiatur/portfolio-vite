@@ -12,18 +12,31 @@ const Header = () => {
   };
 
   return (
-    <header className="shadow-md sticky top-0 w-full z-50 bg-white">
+    <header className="shadow-md sticky top-0 w-full z-30 bg-white">
       <nav className="container max-w-screen flex justify-between p-6 mx-auto items-center">
         <div className="text-primary">
           <Link to="/" className="text-3xl font-bold text-primary">
             👨‍💻{name}
           </Link>
         </div>
-        <div className="flex">
-          <ul className="gap-8 max-md:fixed max-md:top-20 max-md:rounded-xl max-md:shadow-lg max-md:right-3 flex bg-opacity-80 bg-white max-md:p-7 max-md:flex-col">
+        <div className="">
+          <ul className="menu gap-8 flex max-md:hidden">
             {linkMenu.map(({ title, href }, index) => (
-              <li key={index} className="">
-                <Link to={`${href}`}>{title}</Link>
+              <li key={index} className="hover:text-secondary">
+                <a href={`${href}`}>{title}</a>
+              </li>
+            ))}
+          </ul>
+          <ul
+            className={`menu-mobile gap-8 flex md:hidden fixed ${
+              isOpen
+                ? "top-[5.5rem] opacity-100"
+                : "opacity-0 pointer-events-none top-16"
+            } transition-all duration-300 ease-in-out rounded-b-xl shadow-lg right-1 bg-white p-7 flex-col`}
+          >
+            {linkMenu.map(({ title, href }, index) => (
+              <li key={index} className="hover:text-secondary">
+                <a href={`${href}`}>{title}</a>
               </li>
             ))}
           </ul>
