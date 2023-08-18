@@ -25,7 +25,7 @@ const Home = () => {
       <div className="flex flex-wrap max-w-full justify-center md:items-center gap-y-8">
         <div className="md:w-1/2 flex flex-col gap-3">
           <p className="text-primary">Hello I'am 👋</p>
-          <h1 className="bg-gradient-to-r from-primary from-10% to-secondary to-80% bg-clip-text text-transparent text-6xl font-bold w-max">
+          <h1 className="bg-gradient-to-r from-primary from-10% to-secondary to-80% bg-clip-text text-transparent text-6xl font-bold max-w-max">
             {name}
           </h1>
           <p className="text-primary font-bold text-3xl">{position}</p>
