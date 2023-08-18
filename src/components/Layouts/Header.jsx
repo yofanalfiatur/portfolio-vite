@@ -15,7 +15,7 @@ const Header = () => {
     <header className="shadow-md sticky top-0 w-full z-30 bg-white">
       <nav className="container max-w-screen flex justify-between p-6 mx-auto items-center">
         <div className="text-primary">
-          <Link to="/" className="text-3xl font-bold text-primary">
+          <Link to="/" className="text-xl md:text-2xl font-bold text-primary">
             👨‍💻{name}
           </Link>
         </div>
@@ -41,20 +41,18 @@ const Header = () => {
             ))}
           </ul>
         </div>
-        <div>
-          <button
-            className={`md:hidden ${
-              isOpen ? "transform rotate-90" : ""
-            } transition duration-200 ease-in-out`}
-            onClick={handleToggleMenu}
-          >
-            {isOpen ? (
-              <MdOutlineClose className="w-8 h-8" />
-            ) : (
-              <MdMenuOpen className="w-8 h-8" />
-            )}
-          </button>
-        </div>
+        <button
+          className={`md:hidden ${
+            isOpen ? "transform rotate-90" : ""
+          } transition duration-200 ease-in-out`}
+          onClick={handleToggleMenu}
+        >
+          {isOpen ? (
+            <MdOutlineClose className="w-8 h-8" />
+          ) : (
+            <MdMenuOpen className="w-8 h-8" />
+          )}
+        </button>
         <div className="">
           <a href="#">☀️</a>
         </div>
