@@ -55,17 +55,22 @@ export const experience = [
         company: "UPN Veteran Yogykarta",
         time: "Juli 2018 - Juli 2022",
         summary: ["GPA 3.75 graduated with cum laude","2nd winner of the LikaLaku photography exhibition at Jogja Gallery","Member of the Photography Subunit Arts UKM organization"],
+        image: "/svg/e-upn.svg",
     },
     {
         job: "Internship Web Developer",
         company: "SMA BOPKRI 1 Yogyakarta",
         time: "March 2021 - Mei 2021",
         summary: ["Responsible for designing website user needs for alumni data collection","Create wireframes and website display designs with Adobe XD as well","Implementation of the design results into a website form with the help of the WordPress CMS","Participate in the documentation committee for changing the school principal"],
+        image: "/svg/e-bopkri.svg",
+
     },
     {
         job: "Webmaster Associate",
         company: "PT. Stucel Media Kreasi",
         time: "Juli 2022 - Present",
-        summary: ["3Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas. 3Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas 3Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas 3Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas","Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas."]
+        summary: ["Responsible for managing content using the WordPress CMS.","Slicing the design into a website interface using WordPress page builders such as Oxygen, Elementor, Divi, or custom templates.","Responsible for maintenance tasks, including plugin updates, WordPress core updates, and bug fixes.","Creating user guides for clients to facilitate their understanding of content management using the WordPress CMS."],
+        image: "/svg/e-stucel.svg",
+
     }
 ]
