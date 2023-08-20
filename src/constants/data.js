@@ -74,3 +74,187 @@ export const experience = [
 
     }
 ]
+
+export const skills = [
+    {
+        title: "HTML",
+        level: "Intermediate",
+        type : "Skill",
+        icon: "/svg/icon-html.svg",
+    },
+    {
+        title: "CSS",
+        level: "Intermediate",
+        type : "Skill",
+        icon: "/svg/icon-css.svg",
+    },
+    {
+        title: "JavaScript",
+        level: "Intermediate",
+        type : "Skill",
+        icon: "/svg/icon-javascript.svg",
+    },
+    {
+        title: "Sass",
+        level: "Intermediate",
+        type : "Skill",
+        icon: "/svg/icon-sass.svg",
+    },
+    {
+        title: "React JS",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-react.svg",
+    },
+    {
+        title: "Next JS",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-nextjs.svg",
+    },
+    {
+        title: "Tailwind",
+        level: "Intermediate",
+        type : "Skill",
+        icon: "/svg/icon-tailwind.svg",
+    },
+    {
+        title: "TypeScript",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-typescript.svg",
+    },
+    {
+        title: "Bootstrap",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-bootstrap.svg",
+    },
+    {
+        title: "Php",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-php.svg",
+    },
+    {
+        title: "MySQL",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-mysql.svg",
+    },
+    {
+        title: "CodeIgniter",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-codeigniter.svg",
+    },
+    {
+        title: "Node JS",
+        level: "Basic",
+        type : "Skill",
+        icon: "/svg/icon-nodejs.svg",
+    },
+    {
+        title: "Visual Studio Code",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-vscode.svg",
+    },
+    {
+        title: "Git",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-git.svg",
+    },
+    {
+        title: "Github",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-github.svg",
+    },
+    {
+        title: "Gitlab",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-gitlab.svg",
+    },
+    {
+        title: "Vite",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-vite.svg",
+    },
+    {
+        title: "Adobe XD",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-adobexd.svg",
+    },
+    {
+        title: "Figma",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-figma.svg",
+    },
+    {
+        title: "Android Studio",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-androidstudio.svg",
+    },
+    {
+        title: "XAMPP",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-xampp.svg",
+    },
+    {
+        title: "WordPress",
+        level: "Intermediate",
+        type : "Tool",
+        icon: "/svg/icon-wordpress.svg",
+    },
+    {
+        title: "Oxygen Page Builder",
+        level: "Intermediate",
+        type : "Tool",
+        icon: "/svg/icon-oxygen.svg",
+    },
+    {
+        title: "Elementor Page Builder",
+        level: "Intermediate",
+        type : "Tool",
+        icon: "/svg/icon-elementor.svg",
+    },
+    {
+        title: "Divi Page Builder",
+        level: "Intermediate",
+        type : "Tool",
+        icon: "/svg/icon-divi.svg",
+    },
+    {
+        title: "Yoast SEO",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-yoastseo.svg",
+    },
+    {
+        title: "Google Analytics",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-googleanalytics.svg",
+    },
+    {
+        title: "Webflow",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-webflow.svg",
+    },
+    {
+        title: "Canva",
+        level: "Basic",
+        type : "Tool",
+        icon: "/svg/icon-canva.svg",
+    }
+
+]

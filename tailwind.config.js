@@ -15,6 +15,7 @@ export default {
         primary: "#14213D",
         secondary: "#FCA311",
         tertiary: "#E5E5E5",
+        quaternary: "#84817E",
       },
       screens: {
         "2xl": "1320px",
