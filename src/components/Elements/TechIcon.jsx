@@ -2,7 +2,7 @@ const TechIcon = (props) => {
   const { title, level, icon } = props;
   return (
     <>
-      <div className="flex flex-wrap w-full flex-col p-3 bg-white rounded-md items-center text-center gap-4 hover:shadow-md">
+      <div className="flex w-full flex-col p-3 bg-white rounded-md items-center text-center gap-4 hover:shadow-md">
         <img
           src={icon}
           alt="skill icon"
