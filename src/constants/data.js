@@ -1,3 +1,5 @@
+import {AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiOutlineWhatsApp} from 'react-icons/ai';
+import {BsDiscord} from 'react-icons/bs';
 export const identity = {
     name: "Yofan Alfiatur",
     position: "Frontend Developer",
@@ -255,6 +257,53 @@ export const skills = [
         level: "Basic",
         type : "Tool",
         icon: "/svg/icon-canva.svg",
+    }
+
+]
+
+export const project = [
+    {
+        name: "First Portfolio",
+        description: "This awesome project right here is actually my portfolio, crafted using the amazing React JS library and jazzed up with some slick styling courtesy of Tailwind CSS. How cool is that?",
+        preview: "/image/porto-1.jpg",
+        techStack: ["/svg/icon-react.svg","/svg/icon-tailwind.svg","/svg/icon-vite.svg"],
+        repository: "https://github.com/yofanalfiatur/portfolio-vite",
+        link: "https://portfolio-vite-yofan.vercel.app/",
+    },
+    {
+        name: "First Portfolio",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
+        preview: "/image/porto-1.jpg",
+        techStack: ["/svg/icon-react.svg","/svg/icon-tailwind.svg","/svg/icon-vite.svg"],
+        repository: "https://github.com/yofanalfiatur/portfolio-vite",
+        link: "https://portfolio-vite-yofan.vercel.app/",
+    },
+]
+
+export const sosmed = [
+    {
+        LogoSosmed: AiFillGithub,
+        link: "https://github.com/yofanalfiatur",
+    },
+    {
+        LogoSosmed: AiFillFacebook,
+        link: "https://www.facebook.com/yopan.alfiatur",
+    },
+    {
+        LogoSosmed: AiFillInstagram,
+        link: "https://www.instagram.com/yofanalfiatur/",
+    },
+    {
+        LogoSosmed: AiFillLinkedin,
+        link: "https://www.linkedin.com/in/yofan-alfiatur-a74a491a4/",
+    },
+    {
+        LogoSosmed: BsDiscord,
+        link: "https://discord.com/users/YofanAlfiatur#4327",
+    },
+    {
+        LogoSosmed: AiOutlineWhatsApp,
+        link: "https://wa.me/6285640503753",
     }
 
 ]

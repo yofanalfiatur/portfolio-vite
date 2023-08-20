@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <Section id="skills">
       <TitleSection>Skills</TitleSection>
-      <div className="flex flex-col md:flex-row w-full gap-8 h-auto mt-12">
+      <div className="flex flex-col md:flex-row w-full gap-y-16 gap-x-8 h-auto mt-12">
         <Wrapper title="Tech Stack 💻">
           {skillSet.map(({ title, level, type, icon }, index) => (
             <TechIcon

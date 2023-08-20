@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { identity } from "../../constants/data";
 import Section from "../Elements/Section";
 import { LuArrowBigDownDash } from "react-icons/lu";
+import ButtonPrimary from "../Elements/ButtonPrimary";
 
 const Home = () => {
   const { name, position, region, description, profile, cv } = identity;
@@ -32,13 +33,9 @@ const Home = () => {
           <p className="text-primary mb-10">{description}</p>
 
           <div className="flex gap-8 items-center">
-            <a
-              href={cv}
-              target="_blank"
-              className="w-max text-white rounded-xl p-4 bg-primary hover:ring-2 hover:ring-secondary hover:bg-transparent transition duration-200 hover:text-secondary"
-            >
+            <ButtonPrimary href={cv} target="_blank">
               Here is My CV 📃
-            </a>
+            </ButtonPrimary>
 
             <a
               href="#contact"
