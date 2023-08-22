@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <Section id="experience">
       <TitleSection>Education & Experience</TitleSection>
-      <div className="card-experience flex flex-col gap-10 w-full md:[&>*:nth-child(odd)]:self-start [&>*:nth-child(even)]:self-end">
+      <div className="card-experience relative flex flex-col gap-12 w-full md:[&>*:nth-child(odd)]:self-start [&>*:nth-child(even)]:self-end">
         {experience.map(({ job, company, time, summary, image }, index) => (
           <CardExperience
             key={index}
@@ -18,6 +18,7 @@ const Experience = () => {
             image={image}
           />
         ))}
+        <div className="absolute flex -z-10 top-0 left-1/2 -translate-x-1/2 border-dashed border-l-4 border-primary h-full"></div>
       </div>
     </Section>
   );

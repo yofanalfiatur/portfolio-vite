@@ -22,7 +22,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <Section id="home">
+    <Section id="home" className="min-h-screen"> 
       <div className="flex flex-wrap max-w-full justify-center md:items-center gap-y-8">
         <div className="md:w-1/2 flex flex-col gap-3">
           <p className="text-primary">Hello I'am 👋</p>
