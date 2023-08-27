@@ -20,7 +20,7 @@ const CardPortfolio = (props) => {
           ))}
         </div>
         <p>{description}</p>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <ButtonPrimary href={link} target="_blank">
             Preview{" "}
           </ButtonPrimary>
