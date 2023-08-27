@@ -6,6 +6,10 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { BsDiscord } from "react-icons/bs";
+import { CgWebsite } from "react-icons/cg";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { MdDesignServices } from "react-icons/md";
+import { GrDocumentText } from "react-icons/gr";
 
 export const identity = {
   name: "Yofan Alfiatur",
@@ -315,7 +319,7 @@ export const services = [
     title: "Web development from scratch",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
-    icon: "/svg/icon-html.svg",
+    IconTab: CgWebsite,
     subheading: "What do i provide?",
     service: [
       "Web application development",
@@ -346,19 +350,18 @@ export const services = [
     ],
   },
   {
-    service: "Web development with Wordpress CMS",
+    title: "Web development with Wordpress CMS",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
-    icon: "/svg/icon-html.svg",
+    IconTab: HiOutlineDesktopComputer,
     subheading: "What do i provide?",
     service: [
-      "Web application development",
-      "Web Testing",
-      "Web Maintenancing",
-      "Web Data Management",
-      "Web Bug Fixing",
-      "Web interface building",
-      "Web experience building",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
     ],
     listExample: [
       {
@@ -380,27 +383,51 @@ export const services = [
     ],
   },
   {
-    service: "UI/UX Design",
+    title: "UI/UX Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
-    icon: "/svg/icon-html.svg",
+    IconTab: MdDesignServices,
     subheading: "What do i provide?",
     service: [
-      "Web application development",
-      "Web Testing",
-      "Web Maintenancing",
-      "Web Data Management",
-      "Web Bug Fixing",
-      "Web interface building",
-      "Web experience building",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
     ],
     listExample: [
       {
-        example: "Wedding Invitation Website",
+        example: "Design Website",
         link: "https://youtube.com/",
       },
       {
-        example: "Portfolio Website",
+        example: "Design Mobile Apps",
+        link: "https://youtube.com/",
+      },
+    ],
+  },
+  {
+    title: "Copywriting",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
+    IconTab: GrDocumentText,
+    subheading: "What do i provide?",
+    service: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+    ],
+    listExample: [
+      {
+        example: "Example Copywriting",
+        link: "https://youtube.com/",
+      },
+      {
+        example: "Example2 Copywriting",
         link: "https://youtube.com/",
       },
     ],
