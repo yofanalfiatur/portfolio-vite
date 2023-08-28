@@ -1,5 +1,4 @@
 import { BiRightArrow } from "react-icons/bi";
-import { MdOutlineDateRange } from "react-icons/md";
 
 const CardExperience = (props) => {
   const { job, company, time, summary, image } = props;
@@ -8,9 +7,9 @@ const CardExperience = (props) => {
       className={`p-8 shadow-lg rounded-xl w-full md:w-3/4 flex-col flex border-2 bg-white border-tertiary border-b-white gap-2 relative z-0 hover:scale-105 transition duration-200`}
     >
       <p className="text-2xl font-bold max-w-max">{job}</p>
-      <p className="text-xl  max-w-max">{company}</p>
+      <p className="text-xl  max-w-max">📌 {company}</p>
       <p className="text-quaternary flex items-center gap-2  max-w-max">
-        <MdOutlineDateRange /> {time}
+        📅 {time}
       </p>
       <ul className="flex flex-col gap-2 mt-4">
         {summary.map((item, index) => (

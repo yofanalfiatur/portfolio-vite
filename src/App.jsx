@@ -9,6 +9,8 @@ import Services from "./components/Layouts/Services";
 import Skills from "./components/Layouts/Skills";
 
 function App() {
+  console.log("re-render");
+
   return (
     <>
       <Header />
@@ -18,8 +20,8 @@ function App() {
         <Experience />
         <Skills />
         <Portfolio />
-        <Services />
-        <Contact />
+        {/* <Services /> */}
+        {/* <Contact /> */}
       </main>
       <Footer />
     </>

@@ -300,17 +300,13 @@ export const project = [
     link: "https://portfolio-vite-yofan.vercel.app/",
   },
   {
-    name: "First Portfolio",
+    name: "Netflix Clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, aliquam dolores aliquid asperiores deserunt eum ea hic voluptatem accusantium inventore,",
-    preview: "/image/porto-1.jpg",
-    techStack: [
-      "/svg/icon-react.svg",
-      "/svg/icon-tailwind.svg",
-      "/svg/icon-vite.svg",
-    ],
-    repository: "https://github.com/yofanalfiatur/portfolio-vite",
-    link: "https://portfolio-vite-yofan.vercel.app/",
+      "This is my first project using react js to display movie data from The Movie Database API. features are limited to the search field",
+    preview: "/image/porto-2.jpg",
+    techStack: ["/svg/icon-react.svg"],
+    repository: "https://github.com/yofanalfiatur/yofan-movie-list",
+    link: "https://yofan-movie-list.vercel.app/",
   },
 ];
 

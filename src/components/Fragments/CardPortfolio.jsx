@@ -7,19 +7,21 @@ const CardPortfolio = (props) => {
   const { name, description, preview, techStack, link, repository } = props;
   return (
     <>
-      <div className="flex flex-col gap-4 w-full md:w-1/3 p-4 shadow-lg rounded-2xl">
-        <img
-          src={preview}
-          alt="preview-portfolio"
-          className="w-full border-tertiary border-2"
-        />
-        <p className="text-lg">{name}</p>
-        <div className="flex">
-          {techStack.map((item, index) => (
-            <img src={item} alt="" key={index} className="w-8 h-8" />
-          ))}
+      <div className="flex flex-col justify-between gap-4 w-full md:w-1/3 p-4 shadow-lg rounded-2xl">
+        <div className="flex flex-col gap-2">
+          <img
+            src={preview}
+            alt="preview-portfolio"
+            className="w-full border-tertiary border-2"
+          />
+          <p className="text-lg">{name}</p>
+          <div className="flex">
+            {techStack.map((item, index) => (
+              <img src={item} alt="" key={index} className="w-8 h-8" />
+            ))}
+          </div>
+          <p>{description}</p>
         </div>
-        <p>{description}</p>
         <div className="flex flex-wrap items-center gap-3">
           <ButtonPrimary href={link} target="_blank">
             Preview{" "}

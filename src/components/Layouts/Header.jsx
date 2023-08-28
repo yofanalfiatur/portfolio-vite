@@ -53,9 +53,9 @@ const Header = () => {
             <MdMenuOpen className="w-8 h-8" />
           )}
         </button>
-        <div className="">
+        {/* <div className="">
           <a href="#">☀️</a>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

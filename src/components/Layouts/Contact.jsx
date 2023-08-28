@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Section from "../Elements/Section";
 import TitleSection from "../Elements/TitleSection";
@@ -7,8 +7,18 @@ import Input from "../Elements/Input";
 const Contact = () => {
   const form = useRef();
 
+  const [nameInput, setNameInput] = useState("");
+  const [emailInput, setEmailInput] = useState("");
+  const [messageInput, setMessageInput] = useState("");
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const clearFormAfterSubmit = () => {
+      setNameInput("");
+      setEmailInput("");
+      setMessageInput("");
+    };
 
     emailjs
       .sendForm(
@@ -21,6 +31,8 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Email sent!");
+
+          clearFormAfterSubmit();
         },
         (error) => {
           console.log(error.text);
@@ -37,18 +49,29 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="flex flex-col gap-8 w-full rounded-md p-4 shadow-md"
       >
-        <Input type="text" name="user_name" placeholder="Name" text="Name" />
         <Input
+          value={nameInput}
+          type="text"
+          name="user_name"
+          placeholder="Name"
+          text="Name"
+          onChange={({ target: { value } }) => setNameInput(value)}
+        />
+        <Input
+          value={emailInput}
           type="email"
           name="user_email"
           placeholder="Email"
           text="Email"
+          onChange={({ target: { value } }) => setEmailInput(value)}
         />
         <Input
+          value={messageInput}
           type="textarea"
           name="message"
           placeholder="Your Message"
           text="Message"
+          onChange={({ target: { value } }) => setMessageInput(value)}
         />
         <button
           type="submit"
