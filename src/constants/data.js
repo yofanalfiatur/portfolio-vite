@@ -42,6 +42,10 @@ export const linkMenu = [
     title: "Experience",
     href: "/#experience",
   },
+  {
+    title: "Portfolio",
+    href: "/#portfolio",
+  },
   // {
   //   title: "Services",
   //   href: "/#services",
