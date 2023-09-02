@@ -20,8 +20,8 @@ function App() {
         <Experience />
         <Skills />
         <Portfolio />
-        {/* <Services />
-        <Contact /> */}
+        {/* <Services /> */}
+        <Contact />
       </main>
       <Footer />
     </>

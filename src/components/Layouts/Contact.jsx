@@ -10,15 +10,18 @@ const Contact = () => {
   const [nameInput, setNameInput] = useState("");
   const [emailInput, setEmailInput] = useState("");
   const [messageInput, setMessageInput] = useState("");
+  const [textInput, setTextInput] = useState("");
+
+  const clearFormAfterSubmit = () => {
+    console.log("Clear Form After Submit");
+    setNameInput("");
+    setEmailInput("");
+    setMessageInput("");
+    setTextInput("");
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    const clearFormAfterSubmit = () => {
-      setNameInput("");
-      setEmailInput("");
-      setMessageInput("");
-    };
 
     emailjs
       .sendForm(
@@ -33,6 +36,7 @@ const Contact = () => {
           console.log("Email sent!");
 
           clearFormAfterSubmit();
+          alert("Email sent successfully!");
         },
         (error) => {
           console.log(error.text);

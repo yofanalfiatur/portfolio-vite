@@ -14,7 +14,7 @@ import { GrDocumentText } from "react-icons/gr";
 export const identity = {
   name: "Yofan Alfiatur",
   position: "Frontend Developer",
-  region: "Central Tengah, Indonesia",
+  region: "Central Java, Indonesia",
   description:
     "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. Experienced in creating websites, both static and dynamic, especially in frontend developers.",
   aboutMe: [
@@ -50,10 +50,10 @@ export const linkMenu = [
   //   title: "Services",
   //   href: "/#services",
   // },
-  // {
-  //   title: "Contact",
-  //   href: "#contact",
-  // },
+  {
+    title: "Contact",
+    href: "#contact",
+  },
 ];
 export const about = [
   {

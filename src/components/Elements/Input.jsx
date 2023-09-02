@@ -10,6 +10,7 @@ const Input = (props) => {
     classLabel,
     text,
     onChange,
+    value,
   } = props;
 
   const inputRef = useRef(null);
@@ -17,14 +18,12 @@ const Input = (props) => {
   const classField =
     "border-primary border-2 p-2 focus:border-secondary focus:outline-none rounded-md peer invalid:text-red-400 invalid:focus:border-red-400";
 
-  const classInvalid = "text-red-400 invisible peer-invalid:visible";
-
   const handleLabelClick = () => {
     inputRef.current.focus();
   };
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 relative">
       <label
         htmlFor={id}
         className={`${classLabel} after:content-['*'] after:text-red-400`}
@@ -34,6 +33,7 @@ const Input = (props) => {
       </label>
       {type === "textarea" ? (
         <textarea
+          value={value}
           name={name}
           placeholder={placeholder}
           id={id}
@@ -44,6 +44,7 @@ const Input = (props) => {
         />
       ) : (
         <input
+          value={value}
           type={type}
           name={name}
           placeholder={placeholder}
@@ -56,7 +57,9 @@ const Input = (props) => {
       )}
       {/* Handle Error Field */}
 
-      <p className={classInvalid}>please fill your {text}</p>
+      {/* <p className="text-red-400 invisible peer-invalid:visible absolute -bottom-6 left-2">
+        please fill your {text}
+      </p> */}
     </div>
   );
 };
