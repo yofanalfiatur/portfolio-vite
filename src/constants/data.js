@@ -42,14 +42,14 @@ export const linkMenu = [
     title: "Experience",
     href: "/#experience",
   },
-  {
-    title: "Services",
-    href: "/#services",
-  },
-  {
-    title: "Contact",
-    href: "#contact",
-  },
+  // {
+  //   title: "Services",
+  //   href: "/#services",
+  // },
+  // {
+  //   title: "Contact",
+  //   href: "#contact",
+  // },
 ];
 export const about = [
   {

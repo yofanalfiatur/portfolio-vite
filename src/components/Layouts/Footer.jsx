@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 {sosmed.map(({ LogoSosmed, link }, index) => (
                   <a href={link} key={index} target="_blank">
-                    <LogoSosmed className="w-8 h-8 text-secondary" />
+                    <LogoSosmed className="w-8 h-8 text-secondary hover:text-white transition duration-200" />
                   </a>
                 ))}
               </div>
@@ -42,7 +42,9 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="flex gap-4 fixed bottom-8 left-1/2 -translate-x-1/2   md:hidden bg-white p-4 rounded-lg shadow-md z-30">
+
+          {/* Footer Fixed Mobile */}
+          <div className="flex gap-4 fixed bottom-4 left-1/2 -translate-x-1/2 md:hidden bg-white p-4 rounded-lg shadow-md z-30">
             {sosmed.map(({ LogoSosmed, link }, index) => (
               <a href={link} key={index} target="_blank">
                 <LogoSosmed className="w-8 h-8 text-secondary" />
