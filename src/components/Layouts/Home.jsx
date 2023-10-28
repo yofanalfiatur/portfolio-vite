@@ -25,12 +25,30 @@ const Home = () => {
     <Section id="home">
       <div className="flex flex-wrap max-w-full justify-center md:items-center gap-y-8">
         <div className="md:w-1/2 flex flex-col gap-3">
-          <p className="text-primary">Hello I'am 👋</p>
-          <h1 className="bg-gradient-to-r from-primary from-10% to-secondary to-80% bg-clip-text text-transparent text-6xl font-bold max-w-max">
+          <p className="text-primary" data-aos="fade-down" data-aos-delay="100">
+            Hello I'am 👋
+          </p>
+          <h1
+            className="bg-gradient-to-r from-primary from-10% to-secondary to-80% bg-clip-text text-transparent text-6xl font-bold max-w-max"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
             {name}
           </h1>
-          <p className="text-primary font-bold text-3xl">{position}</p>
-          <p className="text-primary mb-10">{description}</p>
+          <p
+            className="text-primary font-bold text-3xl"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            {position}
+          </p>
+          <p
+            className="text-primary mb-10"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            {description}
+          </p>
 
           <div className="flex gap-8 items-center">
             <ButtonPrimary href={cv} target="_blank">
@@ -40,6 +58,8 @@ const Home = () => {
             <a
               href="#contact"
               className="w-fit text-primary font-bold animate-bounce flex items-center gap-2"
+              data-aos="zoom-in"
+              data-aos-delay="300"
             >
               Let's Talk <LuArrowBigDownDash className="" />
             </a>
@@ -51,12 +71,16 @@ const Home = () => {
             alt="Profil Yofan"
             className="mx-auto"
             width={300}
+            data-aos="zoom-in"
+            data-aos-delay="500"
           />
           <span className="absolute top-0 -z-10">
             <svg
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-full "
+              className="w-full"
+              data-aos="zoom-in"
+              data-aos-delay="300"
             >
               <path
                 fill="#FCA311"
@@ -68,6 +92,8 @@ const Home = () => {
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
               className="w-full scale-125 -mt-24 -z-20"
+              data-aos="zoom-out"
+              data-aos-delay="100"
             >
               <path
                 fill="#14213D"

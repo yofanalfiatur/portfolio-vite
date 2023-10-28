@@ -52,6 +52,8 @@ const Contact = () => {
         ref={form}
         onSubmit={sendEmail}
         className="flex flex-col gap-8 w-full rounded-md p-4 shadow-md"
+        data-aos="zoom-in"
+        data-aos-delay="300"
       >
         <Input
           value={nameInput}
@@ -81,6 +83,8 @@ const Contact = () => {
           type="submit"
           value="Send"
           className="p-4 bg-secondary text-white rounded-lg"
+          data-aos="zoom-in"
+          data-aos-delay="600"
         >
           {" "}
           Submit

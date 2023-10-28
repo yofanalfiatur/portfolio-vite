@@ -7,7 +7,11 @@ const Wrapper = (props) => {
   const { children, title } = props;
   return (
     <>
-      <div className="grid grid-cols-2 lg:grid-cols-3 w-full md:w-1/2 p-4 md:p-6 lg:p-8 rounded-md bg-gradient-to-br from-tertiary from-5% to-white  gap-2 shadow-md relative">
+      <div
+        className="grid grid-cols-2 lg:grid-cols-3 w-full md:w-1/2 p-4 md:p-6 lg:p-8 rounded-md bg-gradient-to-br from-tertiary from-5% to-white  gap-2 shadow-md relative"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+      >
         <p className="text-2xl font-bold text-primary absolute -top-12 right-1/2 translate-x-1/2 w-max text-center border-b-4 border-secondary p-2">
           {title}
         </p>

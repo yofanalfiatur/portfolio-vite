@@ -5,6 +5,8 @@ const CardExperience = (props) => {
   return (
     <div
       className={`p-8 shadow-lg rounded-xl w-full md:w-3/4 flex-col flex border-2 bg-white border-tertiary border-b-white gap-2 relative z-0 hover:scale-105 transition duration-200`}
+      data-aos="zoom-out"
+      data-aos-delay="100"
     >
       <p className="text-2xl font-bold max-w-max">{job}</p>
       <p className="text-xl  max-w-max">📌 {company}</p>
