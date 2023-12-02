@@ -312,6 +312,19 @@ export const project = [
     repository: "https://github.com/yofanalfiatur/yofan-movie-list",
     link: "https://yofan-movie-list.vercel.app/",
   },
+  {
+    name: "Anime List",
+    description:
+      "The website which displays a list of top anime that uses JIKAN API, is also equipped with a dark mode feature, but is still in the development process",
+    preview: "/image/porto-3.jpg",
+    techStack: [
+      "/svg/icon-nextjs.svg",
+      "/svg/icon-tailwind.svg",
+      "/svg/icon-react.svg",
+    ],
+    repository: "https://github.com/yofanalfiatur/nextjs-anime",
+    link: "https://nextjs-anime-yar.vercel.app/",
+  },
 ];
 
 export const services = [

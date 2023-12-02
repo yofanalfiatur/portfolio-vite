@@ -1,4 +1,3 @@
-import React from "react";
 import ButtonPrimary from "../Elements/ButtonPrimary";
 import ButtonSecondary from "../Elements/ButtonSecondary";
 import { RiGitRepositoryCommitsLine } from "react-icons/ri";
@@ -14,13 +13,13 @@ const CardPortfolio = (props) => {
             alt="preview-portfolio"
             className="w-full border-tertiary border-2"
           />
-          <p className="text-lg">{name}</p>
-          <div className="flex">
+          <p className="text-xl font-semibold">{name}</p>
+          <p>{description}</p>
+          <div className="flex gap-2">
             {techStack.map((item, index) => (
               <img src={item} alt="" key={index} className="w-8 h-8" />
             ))}
           </div>
-          <p>{description}</p>
         </div>
         <div className="flex flex-wrap items-center gap-3">
           <ButtonPrimary href={link} target="_blank">
