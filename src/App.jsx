@@ -10,6 +10,7 @@ import Services from "./components/Layouts/Services";
 import Skills from "./components/Layouts/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ProjectDone from "./components/Layouts/ProjectDone";
 
 function App() {
   console.log("re-render");
@@ -28,6 +29,7 @@ function App() {
         <About />
         <Experience />
         <Skills />
+        <ProjectDone />
         <Portfolio />
         {/* <Services /> */}
         <Contact />

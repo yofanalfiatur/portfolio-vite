@@ -22,7 +22,7 @@ export const identity = {
     "I always follow and adapt to trends in technological developments in creating applications that benefit society, I am used to working in teams and individually",
   ],
   profile: ["/image/yofan-1.png", "/image/yofan-1-m.png"],
-  cv: "/files/CV__Yofan.pdf",
+  cv: "/files/Yofan_Alfiatur_CV_new.pdf",
 };
 
 export const linkMenu = [
@@ -286,6 +286,57 @@ export const skills = [
     level: "Basic",
     type: "Tool",
     icon: "/svg/icon-canva.svg",
+  },
+];
+
+export const projectDone = [
+  {
+    title: "Invi Indonesia",
+    description:
+      "INVI Indonesia project uses custom themes for WordPress CMS by combining several tech stacks such as SCSS/SASS, gulp, and splide js",
+    thumbnail: "/image/project-invi.jpg",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-gulp.svg",
+    ],
+    link: "https://www.invi-indonesia.co.id/",
+  },
+  {
+    title: "Lyus Jaya Sentosa",
+    description:
+      "Lyus Jaya Sentosa each page is created using the Oxygen page builder from the WordPress CMS then for styling and JavaScript using the WP Codebox plugin",
+    thumbnail: "/image/project-lyus.jpg",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-oxygen.svg",
+    ],
+    link: "https://lyusjayasentosa.com/",
+  },
+  {
+    title: "Mawatu Labuan Bajo",
+    description:
+      "In the Mawatu Labuan Bajo project, use the Oxygen page builder from CMS WordPress to create elements per section, then use the WP Codebox plugin for styling SCSS/SASS and JAVASCRIPT",
+    thumbnail: "/image/project-mawatu.jpg",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-oxygen.svg",
+    ],
+    link: "https://www.invi-indonesia.co.id/",
+  },
+  {
+    title: "Kinarya Bangun Sesama",
+    description:
+      "The kinarya project uses the Oxygen page builder to create elements for each page then for styling and javascript using the WP Codebox plugin",
+    thumbnail: "/image/project-kinarya.jpg",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-oxygen.svg",
+    ],
+    link: "https://lyusjayasentosa.com/",
   },
 ];
 

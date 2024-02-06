@@ -8,7 +8,9 @@ const Portfolio = () => {
     <Section id="portfolio">
       <TitleSection>Portfolio</TitleSection>
       <div className="w-full">
-        <p>Projects I've worked on</p>
+        <p className="mb-4 text-md w-full text-center">
+          Personal projects that I have worked on
+        </p>
         <div
           className="flex flex-col md:flex-row w-full gap-8"
           data-aos="fade-up"
