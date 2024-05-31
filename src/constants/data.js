@@ -293,7 +293,7 @@ export const projectDone = [
   {
     title: "Invi Indonesia",
     description:
-      "INVI Indonesia project uses custom themes for WordPress CMS by combining several tech stacks such as SCSS/SASS, gulp, and splide js",
+      "The INVI Indonesia project uses a special theme for the WordPress CMS by combining several tech stacks such as SCSS/SASS, gulp, and splide js. INVI Indonesia is a company profile website that focuses on providing information about electric vehicles. The company value raised is realizing transportation stability through electrification.",
     thumbnail: "/image/project-invi.jpg",
     techStack: [
       "/svg/icon-wordpress.svg",
@@ -303,21 +303,21 @@ export const projectDone = [
     link: "https://www.invi-indonesia.co.id/",
   },
   {
-    title: "Lyus Jaya Sentosa",
+    title: "Kalista",
     description:
-      "Lyus Jaya Sentosa each page is created using the Oxygen page builder from the WordPress CMS then for styling and JavaScript using the WP Codebox plugin",
-    thumbnail: "/image/project-lyus.jpg",
+      "Kalista was built using a custom WordPress theme that uses Gulp to compress CSS, JS, and images. Kalista is a company profile website that has the values Net Zero 2050, Collective Responsibilities, and Efficient Energy Cost.",
+    thumbnail: "/image/project-kalista.png",
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
-      "/svg/icon-oxygen.svg",
+      "/svg/icon-gulp.svg",
     ],
-    link: "https://lyusjayasentosa.com/",
+    link: "https://kalista.co.id/staging/",
   },
   {
     title: "Mawatu Labuan Bajo",
     description:
-      "In the Mawatu Labuan Bajo project, use the Oxygen page builder from CMS WordPress to create elements per section, then use the WP Codebox plugin for styling SCSS/SASS and JAVASCRIPT",
+      "On the Mawatu Labuan Bajo project, use the Oxygen page builder from the WordPress CMS to create elements per section, then use the WP Codebox plugin to style SCSS/SASS and JAVASCRIPT. MAWATU is a website project for promoting real estate or tenants that will be built.",
     thumbnail: "/image/project-mawatu.jpg",
     techStack: [
       "/svg/icon-wordpress.svg",
@@ -329,8 +329,32 @@ export const projectDone = [
   {
     title: "Kinarya Bangun Sesama",
     description:
-      "The kinarya project uses the Oxygen page builder to create elements for each page then for styling and javascript using the WP Codebox plugin",
+      "The kinarya project uses the Oxygen page builder to create elements on each page then for styling and javascript using the WP Codebox plugin. Kinarya is a company profile website that provides information on several main programs including Forest to Cups, Food Waste to Compost, Pratama Health Clinic, and Training Center.",
     thumbnail: "/image/project-kinarya.jpg",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-oxygen.svg",
+    ],
+    link: "https://lyusjayasentosa.com/",
+  },
+  {
+    title: "Indika Nature",
+    description:
+      "Indika Nature is a custom WordPress website theme that combines GASP and AOS for website animation. Indika is a company profile website that focuses on using nature to solve social and environmental problems.",
+    thumbnail: "/image/project-indika-nature.png",
+    techStack: [
+      "/svg/icon-wordpress.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-gulp.svg",
+    ],
+    link: "https://indikanature.co.id/",
+  },
+  {
+    title: "Lyus Jaya Sentosa",
+    description:
+      "Lyus Jaya Sentosa every page is created using the Oxygen page builder from the WordPress CMS then for styling and JavaScript using the WP Codebox plugin. Lyus Jaya Sentosa is a company profile website that focuses on making crackers.",
+    thumbnail: "/image/project-lyus.jpg",
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
