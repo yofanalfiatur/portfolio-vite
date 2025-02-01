@@ -252,6 +252,12 @@ export const skills = [
     icon: "/svg/icon-oxygen.svg",
   },
   {
+    title: "Bricks Page Builder",
+    level: "Intermediate",
+    type: "Tool",
+    icon: "/svg/icon-bricks.svg",
+  },
+  {
     title: "Elementor Page Builder",
     level: "Intermediate",
     type: "Tool",
@@ -268,6 +274,24 @@ export const skills = [
     level: "Basic",
     type: "Tool",
     icon: "/svg/icon-yoastseo.svg",
+  },
+  {
+    title: "Rankmath SEO",
+    level: "Basic",
+    type: "Tool",
+    icon: "/svg/icon-rankmath.svg",
+  },
+  {
+    title: "ACF Pro",
+    level: "Intermediate",
+    type: "Tool",
+    icon: "/svg/icon-acf.svg",
+  },
+  {
+    title: "WPML",
+    level: "Basic",
+    type: "Tool",
+    icon: "/svg/icon-wpml.svg",
   },
   {
     title: "Google Analytics",
@@ -297,6 +321,8 @@ export const projectDone = [
     thumbnail: "/image/project-invi.jpg",
     techStack: [
       "/svg/icon-wordpress.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wpml.svg",
       "/svg/icon-sass.svg",
       "/svg/icon-gulp.svg",
     ],
@@ -309,10 +335,12 @@ export const projectDone = [
     thumbnail: "/image/project-kalista.png",
     techStack: [
       "/svg/icon-wordpress.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wpml.svg",
       "/svg/icon-sass.svg",
       "/svg/icon-gulp.svg",
     ],
-    link: "https://kalista.co.id/staging/",
+    link: "https://kalista.co.id/",
   },
   {
     title: "Mawatu Labuan Bajo",
@@ -322,6 +350,8 @@ export const projectDone = [
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wpml.svg",
       "/svg/icon-oxygen.svg",
     ],
     link: "https://www.invi-indonesia.co.id/",
@@ -334,6 +364,8 @@ export const projectDone = [
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wpml.svg",
       "/svg/icon-oxygen.svg",
     ],
     link: "https://lyusjayasentosa.com/",
@@ -346,6 +378,7 @@ export const projectDone = [
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
       "/svg/icon-gulp.svg",
     ],
     link: "https://indikanature.co.id/",
@@ -358,6 +391,8 @@ export const projectDone = [
     techStack: [
       "/svg/icon-wordpress.svg",
       "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wpml.svg",
       "/svg/icon-oxygen.svg",
     ],
     link: "https://lyusjayasentosa.com/",
@@ -365,6 +400,34 @@ export const projectDone = [
 ];
 
 export const project = [
+  {
+    name: "Woodenloka",
+    description:
+      "Woodenloka is a catalog of premium teak wood tableware products, using Bricks Builder for the development of each template and section, and ACF Pro for creating product post types.",
+    preview: "/image/porto-woodenloka.jpg",
+    techStack: [
+      "/svg/icon-bricks.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wordpress.svg",
+    ],
+    // repository: "https://github.com/yofanalfiatur/portfolio-vite",
+    link: "https://woodenloka.store/",
+    },
+    {
+    name: "Bakpiaku",
+    description:
+      "This website showcases the Bakpiaku product catalog using Bricks Builder as the main page builder, and utilizes the WPCodeBox plugin for CSS or SCSS styling. Also using ACF Pro for creating product post types and fields for global content settings.",
+    preview: "/image/porto-bakpiaku.jpg",
+    techStack: [
+      "/svg/icon-bricks.svg",
+      "/svg/icon-sass.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-wordpress.svg",
+    ],
+    // repository: "https://github.com/yofanalfiatur/portfolio-vite",
+    link: "https://woodenloka.store/bakpiakustaging/",
+  },
   {
     name: "First Portfolio",
     description:
@@ -381,7 +444,7 @@ export const project = [
   {
     name: "Netflix Clone",
     description:
-      "This is my first project using react js to display movie data from The Movie Database API. features are limited to the search field",
+      "This is my first project using React JS to display movie data from The Movie Database API. Features are limited to the search field.",
     preview: "/image/porto-2.jpg",
     techStack: ["/svg/icon-react.svg"],
     repository: "https://github.com/yofanalfiatur/yofan-movie-list",
@@ -390,7 +453,7 @@ export const project = [
   {
     name: "Anime List",
     description:
-      "The website which displays a list of top anime that uses JIKAN API, is also equipped with a dark mode feature, but is still in the development process",
+      "A website that displays a list of top anime using the JIKAN API, also equipped with a dark mode feature, but still in the development process.",
     preview: "/image/porto-3.jpg",
     techStack: [
       "/svg/icon-nextjs.svg",

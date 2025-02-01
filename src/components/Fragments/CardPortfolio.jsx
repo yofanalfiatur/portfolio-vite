@@ -6,8 +6,8 @@ const CardPortfolio = (props) => {
   const { name, description, preview, techStack, link, repository } = props;
   return (
     <>
-      <div className="flex flex-col justify-between gap-4 w-full md:w-1/3 p-4 shadow-lg rounded-2xl">
-        <div className="flex flex-col gap-2">
+      <div className="flex flex-col justify-between gap-4 w-full p-4 shadow-lg rounded-2xl h-full">
+        <div className="flex flex-col gap-6">
           <img
             src={preview}
             alt="preview-portfolio"
@@ -25,9 +25,11 @@ const CardPortfolio = (props) => {
           <ButtonPrimary href={link} target="_blank">
             Preview{" "}
           </ButtonPrimary>
-          <ButtonSecondary href={repository} target="_blank">
-            Repository <RiGitRepositoryCommitsLine />
-          </ButtonSecondary>
+          {repository && (
+            <ButtonSecondary href={repository} target="_blank">
+              Repository <RiGitRepositoryCommitsLine />
+            </ButtonSecondary>
+          )}
         </div>
       </div>
     </>

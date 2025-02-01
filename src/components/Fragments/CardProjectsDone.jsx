@@ -4,7 +4,7 @@ const CardProjectsDone = (props) => {
   const { title, description, thumbnail, techStack, link } = props;
   return (
     <>
-      <div className="border-2 border-opacity-50 border-secondary rounded-2xl p-4 gap-y-2 flex flex-col">
+      <div className="border-2 border-opacity-50 border-secondary rounded-2xl p-4 gap-y-2 flex flex-col h-full">
         <img
           src={thumbnail}
           alt="project-done"
@@ -13,7 +13,7 @@ const CardProjectsDone = (props) => {
         <h4 className="text-xl font-semibold h-max w-full mt-4"> {title}</h4>
         <div className="font-light text-sm min-h-[7.5rem]">{description}</div>
         <p className="text-primary font-semibold">Tech Stack :</p>
-        <div className="flex gap-2 mb-4">
+        <div className="flex gap-6 mb-4">
           {techStack.map((item, index) => (
             <img src={item} alt="" key={index} className="w-8 h-8" />
           ))}

@@ -30,6 +30,8 @@ const ProjectDone = () => {
             autoplay: true,
             speed: 700,
             interval: 2000,
+            pauseOnHover: true,
+            pauseOnFocus: true,
             breakpoints: {
               992: {
                 perPage: 1,
@@ -37,7 +39,7 @@ const ProjectDone = () => {
             },
           }}
           hasTrack={false}
-          className="relative pb-10 "
+          className="relative pb-14"
         >
           <SplideTrack>
             {projectDone.map(

@@ -26,7 +26,7 @@ const About = () => {
             data-aos="fade-down"
             data-aos-delay="100"
           >
-            I'm {name},<br />
+            I&apos;m {name},<br />
             as a<span className="text-secondary"> {position}</span>
           </h3>
           <p className="text-justify mb-4">
