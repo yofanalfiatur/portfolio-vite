@@ -16,10 +16,10 @@ export const identity = {
   position: "Frontend Developer",
   region: "Central Java, Indonesia",
   description:
-    "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. Experienced in creating websites, both static and dynamic, especially in frontend developers.",
+    "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. Experienced in creating websites, both static and dynamic.",
   aboutMe: [
-    "Hi everyone, I'm a beginner to intermediate level as a frontend developer especially for websites. I have experience making interfaces from design or slicing either manually coding or with the help of a CMS such as wordpress.",
-    "I always follow and adapt to trends in technological developments in creating applications that benefit society, I am used to working in teams and individually",
+    "Hi everyone! I'm an experienced Frontend and WordPress Developer with over 3 years of practical experience in building websites. I specialize in turning designs into responsive, user-friendly interfaces—whether through manual coding or using content management systems like WordPress.",
+    "I'm always up-to-date with the latest web technologies and trends, and I'm passionate about creating websites and applications that deliver real value. I'm confident working both independently and collaboratively in a team environment.",
   ],
   profile: ["/image/yofan-1.png", "/image/yofan-1-m.png"],
   cv: "/files/Yofan_Alfiatur_CV_new.pdf",
@@ -35,16 +35,20 @@ export const linkMenu = [
     href: "/#about",
   },
   {
-    title: "Skills",
-    href: "/#skills",
+    title: "Projects",
+    href: "/#project-done",
+  },
+  {
+    title: "Portfolio",
+    href: "/#portfolio",
   },
   {
     title: "Experience",
     href: "/#experience",
   },
   {
-    title: "Portfolio",
-    href: "/#portfolio",
+    title: "Skills",
+    href: "/#skills",
   },
   // {
   //   title: "Services",
@@ -58,12 +62,12 @@ export const linkMenu = [
 export const about = [
   {
     topDescription: "Has handled",
-    counted: "11",
+    counted: "30",
     bottomDescription: "Websites",
   },
   {
-    topDescription: "Has been frontend for",
-    counted: "2",
+    topDescription: "Has been working for",
+    counted: "3",
     bottomDescription: "Years",
   },
 ];
@@ -341,6 +345,20 @@ export const projectDone = [
       "/svg/icon-gulp.svg",
     ],
     link: "https://kalista.co.id/",
+  },
+  {
+    title: "Ming Media Promotion",
+    description:
+      "Project Ming is a landing page project focused on driving traffic for promotional purposes. This project was developed using the Bricks Builder page builder, along with some custom CSS styling. The goal of this project is to collect data from form submissions and track traffic through advertisements.",
+    thumbnail: "/image/project-ming.jpg",
+    techStack: [
+      "/svg/icon-bricks.svg",
+      "/svg/icon-acf.svg",
+      "/svg/icon-css.svg",
+      "/svg/icon-javascript.svg",
+      "/svg/icon-php.svg",
+    ],
+    link: "https://order.mingpromo.com/",
   },
   {
     title: "Mawatu Labuan Bajo",
