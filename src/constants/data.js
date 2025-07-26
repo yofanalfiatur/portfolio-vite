@@ -13,7 +13,7 @@ import { GrDocumentText } from "react-icons/gr";
 
 export const identity = {
   name: "Yofan Alfiatur",
-  position: "Frontend Developer",
+  position: "Website Developer",
   region: "Central Java, Indonesia",
   description:
     "I am an information system graduate with an interest in information and technology (IT), especially websites and applications. Experienced in creating websites, both static and dynamic.",
@@ -431,8 +431,8 @@ export const project = [
     ],
     // repository: "https://github.com/yofanalfiatur/portfolio-vite",
     link: "https://woodenloka.store/",
-    },
-    {
+  },
+  {
     name: "Bakpiaku",
     description:
       "This website showcases the Bakpiaku product catalog using Bricks Builder as the main page builder, and utilizes the WPCodeBox plugin for CSS or SCSS styling. Also using ACF Pro for creating product post types and fields for global content settings.",
